@@ -42,6 +42,6 @@ jobs:
       uses: wzieba/AppCenter-Github-Action@v1
       with:
         token: ${{ secrets.APP_CENTER_TOKEN }}
-        appName: skeat/smonkey-test2
+        appName: userskeat/smonkey-test2
         file: android/app/build/outputs/apk/debug/app-debug.apk # 빌드된 APK 파일의 경로
         group: Collaborators # 배포할 그룹의 이름
